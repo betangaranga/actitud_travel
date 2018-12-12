@@ -176,7 +176,7 @@ h3 {
 
 @media all and (max-width:900px) {
   .service{
-    height: 20em;
+    height: 25em;
     width: 100%;
     position: relative;
     top: -2em;
