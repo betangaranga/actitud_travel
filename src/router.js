@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Servicios from './views/Servicios.vue'
 import Experiencias from './views/Experiencias.vue'
+import Conocenos from './views/Conocenos.vue'
 
 Vue.use(Router)
 
@@ -18,6 +19,11 @@ export default new Router({
       path:'/experiencias',
       name:'experiencias',
       component:Experiencias
+    },
+    {
+      path:'/conocenos',
+      name:'conocenos',
+      component:Conocenos
     },
     {
       path: '/contacto',

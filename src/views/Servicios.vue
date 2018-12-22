@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <services msg="Conoce los servicios que tenemos para ti"/>
+    <services msg=""/>
   </div>
 </template>
 

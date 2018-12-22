@@ -1,6 +1,5 @@
 <template>
     <div>
-
         <md-card>
             <md-card-area>
                 <md-card-media>
@@ -94,7 +93,8 @@
         margin: 15px;
         display: inline-block;
         vertical-align: top;
-        border-radius: 2em
+        border-radius: 2em;
+
     }
 
     .md-card-example {
@@ -135,11 +135,54 @@
             }
         }
     }
+ @media all and (max-width: 1100px) {
+        .md-card {
+            width: 70%;
+            height: 45em;
+            position: relative;
+            margin: 10em 10em;
+            top: -6em
+            
+
+        }
+ }
+    
+
+    @media all and (max-width: 1500px) {
+        .md-card {
+            width: 40%;
+            height: 45em;
+            position: relative;
+            margin: 10em 10em;
+            top: -6em
+            
+
+        }
+
+        #experiencia {
+            position: relative;
+            top: -2.5em
+        }
+
+        #imgExp {
+            height: 200px;
+            width: 100%
+        }
+
+        .botonesExp {
+            position: relative;
+            top: -5em
+        }
+    }
 
     @media all and (max-width:750px) {
         .md-card {
             width: 80%;
             height: 30em;
+            position: relative;
+            top: 5em;
+            margin: auto;
+
 
         }
 
@@ -150,11 +193,12 @@
 
         #imgExp {
             height: 150px;
+            width: 100%
         }
 
         .botonesExp {
             position: relative;
-            top: -14em
+            top: -15em
         }
 
     }

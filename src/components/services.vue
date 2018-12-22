@@ -124,10 +124,11 @@ h3 {
 
 .service {
   background: #fff;
-  margin: 20px;
   height: 30em;
   padding: 20px;
-  border-radius: 4px;
+  margin-right: 1em;
+  margin-left: 1em;
+  border-radius: 40px;
   text-align: center;
   -webkit-box-flex: 1;
   flex: 1;
@@ -173,13 +174,48 @@ h3 {
 .service .cta {
   align-self: flex-end;
 }
+@media all and (max-width:1500px) {
+  .service{
+    height: 35em;
+    width: 100%;
+    position: relative;
+    top: -6em;
+    margin-top: 4em;
+    margin-bottom: 0
+  }
+  .cta{
+    position: relative;
+    top: -2em
+  }
 
-@media all and (max-width:900px) {
+  
+}
+@media all and (max-width:1000px) {
   .service{
     height: 25em;
     width: 100%;
     position: relative;
     top: -2em;
+    margin-top: 4em;
+    margin-bottom: 0
+  }
+  .services-grid {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+  
+}
+@media all and (max-width:1200px) {
+  .service{
+    height: 30em;
+    width: 100%;
+    position: relative;
+    top: -2em;
+    margin-top: 4em;
+    margin-bottom: 0
   }
   .services-grid {
     display: -webkit-box;
