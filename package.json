@@ -5,10 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start" : "node server.js"
   },
   "dependencies": {
     "dns": "^0.2.2",
+    "express": "^4.16.4",
     "firebase": "^5.7.0",
     "nodemailer": "^4.7.0",
     "vue": "^2.5.17",
@@ -29,5 +31,4 @@
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.17"
   }
-
 }
