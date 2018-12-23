@@ -3,11 +3,11 @@
 
 
     <modal name="sectur" :width="700" :height="750" :pivotY=".5" :draggable="true" :adaptive="true">
-      <img src="./assets/RNT-1.png" alt="" height="100%">
+      <img src="./assets/RNT-1.png" alt="" id="imgModal">
 
     </modal>
-    <modal name="moderniza" :width="700" :height="750" :pivotY=".5" :draggable="true" :adaptive="true">
-      <img src="./assets/m-actitud.jpeg" alt="">
+    <modal name="moderniza" :width="700" :height="900" :pivotY=".5" :draggable="true" :adaptive="true">
+      <img src="./assets/m-actitud.jpeg" alt="" id="imgModal">
 
     </modal>
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons">
@@ -54,13 +54,13 @@
           </md-menu-content>
         </md-menu>
         <div id="log">
-          <img src="./assets/logo.png" alt="" id="logo"><span>ACTITUD TRAVEL</span>
+          <img src="./assets/logo.png" alt="" id="logo">
         </div>
       </div>
       <div class="menu_normal">
         <md-menu md-direction="bottom-start" v-bind:style="nav">
 
-          <img src="./assets/logo.png" alt="" id="logo"><span>ACTITUD TRAVEL</span>
+          <img src="./assets/logo.png" alt="" id="logo">
         </md-menu>
 
         <md-menu md-direction="bottom-start" v-bind:style="nav">
@@ -140,6 +140,10 @@
 </script>
 
 <style>
+#imgModal{
+  height: 100%;
+  width: 100%;
+}
 .md-menu{
   display: none
 }
@@ -198,7 +202,7 @@
   }
 
   #logo {
-    width: 4em;
+    width: 5em;
 
   }
 
